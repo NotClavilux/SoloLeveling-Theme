@@ -1,0 +1,92 @@
+/**
+ * @name SoloLeveling
+ * @author Clavilux
+ * @version 1.0.5
+ * @description Emulates the atmosphere of Solo Leveling manga with an easy-on-the-eyes theme.
+ */
+
+/* Import external CSS files */
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+
+:root {
+  --background: url('https://files.catbox.moe/fa2a1i.gif');
+  --backgroundsize: cover;
+  --backgroundposition: center;
+  --backgroundblur: 0px;
+  --popout: var(--background);
+  --popoutsize: var(--backgroundsize);
+  --popoutblur: 0px;
+  --transparencycolor: 0, 0, 0;
+  --accentcolor: 255, 133, 51; 
+  --backdrop: rgba(0, 0, 0, 0.8); 
+  --textshadow: 1px 1px 2px rgba(255, 255, 255, 0.3); 
+  --transparencyalpha: 0.12;
+  --messagetransparency: 0.5;
+  --guildchanneltransparency: 0.18;
+  --chatinputtransparency: 0;
+  --memberlisttransparency: 0;
+
+  --textbrightest: 255, 255, 255;
+  --textbrighter: 235, 235, 235; 
+  --textbright: 200, 200, 200;
+  --textdark: 70, 70, 70; 
+  --textdarker: 50, 50, 50; 
+  --textdarkest: 30, 30, 30; 
+  --settingsicons: 1;
+  --backdropsize: var(--background-size);
+  --backdropblur: 0px;
+  --version1_0_5: none;
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 2px;
+  --rs-large-spacing: 2px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 2.5px;
+  --rs-large-width: 1.5px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #4caf50; 
+  --rs-idle-color: #ff9800; 
+  --rs-dnd-color: #f44336; 
+  --rs-offline-color: #607d8b; 
+  --rs-streaming-color: #9c27b0; 
+  --rs-phone-visible: block;
+}
+
+
+body {
+  background: var(--background);
+  color: rgb(var(--textbrightest));
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arial', sans-serif; 
+  transition: color 0.3s ease;
+}
+
+
+hr, input, select, textarea, pre, a, button {
+  border-color: rgba(var(--textdark), 0.2);
+  transition: border-color 0.3s ease;
+}
+
+
+input, select, textarea, pre, a, button {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+
+a:hover {
+  color: rgb(var(--accentcolor));
+}
+
+body {
+  background: var(--background);
+  color: rgb(var(--textbrightest));
+  transition: background 0.5s ease, color 0.5s ease;
+  overflow: hidden; 
+}
+
